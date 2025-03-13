@@ -1,5 +1,10 @@
 const Footer = () => {
-  return <footer>Footer</footer>;
+  return (
+    <footer className='footer'>
+      <small>&copy; Copyright by ByteGrad. All rights reserved. </small>
+      <small>Last checked limit: 17 days ago</small>
+    </footer>
+  );
 };
 
 export default Footer;
